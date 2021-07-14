@@ -11,8 +11,7 @@ body{
     color: honeydew;
 }
 
-/* Header */
-
+/* Main */
 .logo-box{
     height: 90px;
     background-color: black;
@@ -22,9 +21,8 @@ body{
     width: 60%;
     margin-top: 20px;
     margin-left: 20px;
-    
 }
-/* Main */
+
 main{
     height: calc(100vh - 90px);
     display: flex;
@@ -36,15 +34,11 @@ main{
     position: fixed;
     top: 0;
     width: calc(100% - 230px);
+    text-align: right;
 }
 
-.sidebar-fixed{
-    width: 230px;
-    height: calc(100vh - 90px);
-    background-color: darkblue;
-    overflow: hidden;
-    position: fixed;
-    top: 0;
+.navbar-fixed button{
+    margin-right: 20px;
 }
 
 .main-content{
@@ -52,8 +46,29 @@ main{
     width: calc(100% - 230px);
     overflow-y: auto;
     font-size: 50px;
-
 }
+  
+/* Sidebar */
+.sidebar-fixed{
+    width: 230px;
+    height: calc(100% - 90px);
+    background-color: darkblue;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+}
+.sidebar-column{
+    height: calc(100% - 90px);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+.nav-sidebar-top,.nav-sidebar-bottom{
+border: 1px solid white;
+}
+
+
 /* Footer */
 footer{
     height: 90px;
