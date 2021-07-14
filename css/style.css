@@ -43,6 +43,7 @@ main{
     top: 0;
     width: calc(100% - 230px);
     text-align: right;
+    line-height: 90px;
 }
 
 .navbar-fixed button{
@@ -53,9 +54,19 @@ main{
     margin-left: 230px;
     width: calc(100% - 230px);
     overflow-y: auto;
-    font-size: 50px;
+    margin-top: 100px;
 }
-  
+.nav-main-center{
+    text-align: center;
+    text-transform: uppercase;
+}
+.nav-main-center>ul li{
+    display: inline-block;
+    padding: 5px;
+}
+
+
+
 /* Sidebar */
 .sidebar-fixed{
     width: 230px;
