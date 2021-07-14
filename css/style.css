@@ -13,12 +13,27 @@ body{
 
 /* Header */
 header{
+    display: flex;
     height: 90px;
     background-color:gray;
+}
+.logo-box{
+    width: 230px;
+    background-color: black;
 }
 /* Main */
 main{
     height: calc(100vh - 180px);
+    display: flex;
+}
+.sidebar, .main-content{
+    border: 1px solid white;
+}
+.sidebar{
+    width: 230px;
+}
+.main-content{
+    width: calc(100% - 230px);
 }
 /* Footer */
 footer{
