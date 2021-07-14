@@ -119,5 +119,10 @@ footer{
     justify-content: space-between;
     height: 90px;
     background-color:gray;
+    align-items: center;
+    padding: 20px;
+}
+
+footer div{
 }
 
