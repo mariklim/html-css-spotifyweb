@@ -93,6 +93,7 @@ padding: 20px;
 }
 
 /* Playlist */
+
 .row{
     display: flex;
     padding: 10px;
@@ -100,9 +101,18 @@ padding: 20px;
 .album{
     width:calc(20% - 20px);
     height: 200px;
-    background-color:yellow;
+    background-color:teal;
     margin: 10px;
 }
+
+section h2, section p{
+    margin-left: 20px;
+}
+
+.album.radius{
+    border-radius: 50%;
+}
+
 /* Footer */
 footer{
     height: 90px;
