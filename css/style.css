@@ -115,6 +115,8 @@ section h2, section p{
 
 /* Footer */
 footer{
+    display: flex;
+    justify-content: space-between;
     height: 90px;
     background-color:gray;
 }
