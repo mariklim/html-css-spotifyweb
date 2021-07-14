@@ -1,0 +1,27 @@
+/* Reset */
+*{
+    margin:0 ;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Common */
+body{
+    background-color: #141922;
+    color: honeydew;
+}
+
+/* Header */
+header{
+    height: 90px;
+    background-color:gray;
+}
+/* Main */
+main{
+    height: calc(100vh - 180px);
+}
+/* Footer */
+footer{
+    height: 90px;
+    background-color:gray;
+}
