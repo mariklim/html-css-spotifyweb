@@ -12,26 +12,33 @@ body{
 }
 
 /* Header */
-header{
-    display: flex;
-    height: 90px;
-    background-color:gray;
-}
+
 .logo-box{
-    width: 230px;
     background-color: black;
 }
 /* Main */
 main{
-    height: calc(100vh - 180px);
+    height: calc(100vh - 90px);
     display: flex;
 }
-.sidebar, .main-content{
-    border: 1px solid white;
+.navbar-fixed{
+    height: 90px;
+    background-color: blue;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
-.sidebar{
+
+.sidebar-fixed{
     width: 230px;
+    height: calc(100vh - 90px);
+    background-color: darkblue;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
 }
+
 .main-content{
     width: calc(100% - 230px);
 }
