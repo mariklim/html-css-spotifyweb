@@ -64,12 +64,14 @@ main{
     overflow: hidden;
     position: fixed;
     top: 0;
+    
 }
 .sidebar-column{
     height: calc(100% - 90px);
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    overflow-y: auto;
     
 }
 .nav-sidebar-top,.nav-sidebar-bottom{
