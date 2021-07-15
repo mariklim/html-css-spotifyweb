@@ -163,7 +163,7 @@ section h2, section p{
 }
 /* Resently */
 .card{
-    width:calc(20% - 20px);
+    width:calc((100% / 6) - 20px);
 }
 .album{
     height: 200px;
@@ -187,7 +187,21 @@ section h2, section p{
     background-image: url("../img/sinister.jpeg");
 }
 
+/* Special for you */
+.album-spec-1{
+    background-image: url("../img/radar.jpeg");
+}
+.album-spec-2{
+    background-image: url("../img/mixdaily.jpeg");
+}
 
+/* Artist */
+.album-art-1{
+    background-image: url("../img/youg.jpeg");
+}
+.album-art-2{
+    background-image: url("../img/cure.jpeg");
+}
 /* Footer */
 footer{
     display: flex;
