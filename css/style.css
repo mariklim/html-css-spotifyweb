@@ -39,6 +39,18 @@ ul{
     color: black;
     font-size: 20px;
 }
+
+.btn-audio{
+    background: transparent;
+    border:0px;
+}
+.btn-audio i{
+    color: white;
+}
+.play {
+    font-size: 30px;
+}
+
 /* Main */
 .logo-box{
     height: 90px;
@@ -153,7 +165,7 @@ footer{
     display: flex;
     justify-content: space-between;
     height: 90px;
-    background-color:gray;
+    background-color:#282828;
     align-items: center;
     padding: 20px;
     position: fixed;
@@ -178,4 +190,25 @@ footer{
 .small-text-box{
     margin: auto;
     margin-left: 10px ;
+}
+
+.small-icons{
+    margin: auto;
+    margin-left: 40px;
+}
+.small-icons i{
+    padding: 0px 3px;
+}
+
+.audio-nav, .audio-row{
+    height: 30px;
+    /* border: 1px solid white; */
+}
+.audio-nav ul{
+    display: flex;
+    justify-content: center;
+}
+
+.audio-nav ul li{
+    margin: 0 10px;
 }
