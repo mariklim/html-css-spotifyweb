@@ -200,10 +200,6 @@ footer{
     padding: 0px 3px;
 }
 
-.audio-nav, .audio-row{
-    height: 30px;
-    /* border: 1px solid white; */
-}
 .audio-nav ul{
     display: flex;
     justify-content: center;
@@ -211,4 +207,20 @@ footer{
 
 .audio-nav ul li{
     margin: 0 10px;
+}
+
+.audio-row{
+    margin-top: 15px;
+    display: flex;
+    width: 600px;
+    height: 4px;
+}
+
+.audio-row-listening{
+    width: 30%;
+    background-color:#c1c1c1;
+}
+.audio-row-complete{
+    width: 70%;
+    background-color:#5a5a5a;
 }
