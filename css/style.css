@@ -80,15 +80,22 @@ main{
     height: calc(100% - 90px);
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    overflow-y: auto;
+
     
 }
-.nav-sidebar-top,.nav-sidebar-bottom{
+.nav-sidebar-top,.nav-sidebar-bottom,.nav-sidebar-middle{
 border: 1px solid white;
 padding: 20px;
 }
 
+.nav-sidebar-bottom, .nav-sidebar-top{
+    height: 20%;
+}
+.nav-sidebar-middle{
+    height: 80%;
+    overflow-y: auto;
+    background-color: chartreuse;
+}
 .nav-sidebar-top li{
     margin: 10px 0;
 }
@@ -122,6 +129,11 @@ footer{
     background-color:gray;
     align-items: center;
     padding: 20px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
 }
 
 
