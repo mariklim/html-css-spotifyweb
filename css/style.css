@@ -20,6 +20,11 @@ ul{
     list-style: none;
 }
 
+/* Hover */
+.album:hover{
+  
+}
+
 /* Buttons */
 .btn{
    background-color: rgba(0, 0, 0, 0.9);
@@ -168,7 +173,7 @@ section h2, section p{
 .album{
     height: 200px;
     margin: 10px;
-    background-size:contain;
+    background-size:cover;
     background-repeat: no-repeat;
 }
 .album-res-1{
@@ -200,7 +205,7 @@ section h2, section p{
     background-image: url("../img/youg.jpeg");
 }
 .album-art-2{
-    background-image: url("../img/cure.jpeg");
+    background-image: url("../img/einaudi.jpeg");
 }
 /* Footer */
 footer{
