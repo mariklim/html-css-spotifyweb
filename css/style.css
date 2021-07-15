@@ -35,18 +35,19 @@ main{
     height: calc(100vh - 90px);
     display: flex;
 }
-.navbar-fixed{
+.navbar-top-fixed{
     height: 90px;
     background-color: blue;
     overflow: hidden;
     position: fixed;
     top: 0;
+    right: 0;
     width: calc(100% - 230px);
     text-align: right;
     line-height: 90px;
 }
 
-.navbar-fixed button{
+.navbar-top-fixed button{
     margin-right: 20px;
 }
 
@@ -68,11 +69,11 @@ main{
 /* Sidebar */
 .sidebar-fixed{
     width: 230px;
-    height: calc(100% - 90px);
     background-color: darkblue;
     overflow: hidden;
     position: fixed;
     top: 0;
+    bottom:90px;
     
 }
 .sidebar-column{
@@ -123,6 +124,4 @@ footer{
     padding: 20px;
 }
 
-footer div{
-}
 
