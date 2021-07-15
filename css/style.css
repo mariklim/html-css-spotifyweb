@@ -48,12 +48,12 @@ main{
 }
 .navbar-top-fixed{
     height: 90px;
-    background: rgba(216, 148, 148, 0.2);
+    background:rgba(0, 0,0, 0.5);
+    width: 100%;
     overflow: hidden;
-    position: fixed;
+    position: sticky;
     top: 0;
     right: 0;
-    width: calc(100% - 230px);
     text-align: right;
     line-height: 90px;
 }
@@ -66,7 +66,6 @@ main{
     margin-left: 230px;
     width: calc(100% - 230px);
     overflow-y: auto;
-    margin-top: 100px;
 }
 .nav-main-center{
     text-align: center;
