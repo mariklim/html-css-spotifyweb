@@ -21,9 +21,18 @@ ul{
 }
 
 /* Hover */
-.album:hover{
-  
+
+.album:hover i{
+    display: block;
 }
+.album:hover{
+    filter:grayscale(0.7);
+}
+
+.album i{
+    display: none;
+}
+
 
 /* Buttons */
 .btn{
@@ -171,6 +180,9 @@ section h2, section p{
     width:calc((100% / 6) - 20px);
 }
 .album{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 200px;
     margin: 10px;
     background-size:cover;
