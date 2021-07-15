@@ -40,11 +40,11 @@ ul{
     font-size: 20px;
 }
 
-.btn-audio{
+.btn-icon{
     background: transparent;
     border:0px;
 }
-.btn-audio i{
+.btn-icon i{
     color: white;
 }
 .play {
@@ -225,12 +225,11 @@ footer{
     background-color:#5a5a5a;
 }
 
-.test{
+.audio-tamplate{
     display: flex;
 }
 
 .time{
-    ;
     font-size: 10px;
     margin: 8px 20px;
 }
