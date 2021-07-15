@@ -21,10 +21,10 @@ ul{
 }
 
 /* Hover */
-
-.album:hover i{
-    display: block;
+.album::after{
+    content: dddydy;
 }
+
 .album:hover{
     filter:grayscale(0.7);
 }
@@ -33,6 +33,9 @@ ul{
     display: none;
 }
 
+.album:hover i{
+    display: block;
+}
 
 /* Buttons */
 .btn{
