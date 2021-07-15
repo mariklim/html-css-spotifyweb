@@ -224,3 +224,13 @@ footer{
     width: 70%;
     background-color:#5a5a5a;
 }
+
+.test{
+    display: flex;
+}
+
+.time{
+    ;
+    font-size: 10px;
+    margin: 8px 20px;
+}
