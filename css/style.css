@@ -155,9 +155,17 @@ section h2, section p{
 }
 
 /* Cover plylist */
+.album-description{
+    margin-left: 20px;
+}
+.album-description p{
+    margin-left: 0;
+}
 /* Resently */
-.album{
+.card{
     width:calc(20% - 20px);
+}
+.album{
     height: 200px;
     margin: 10px;
     background-size:contain;
