@@ -145,12 +145,6 @@ a.icon-user i{
     display: flex;
     padding: 10px;
 }
-.album{
-    width:calc(20% - 20px);
-    height: 200px;
-    background-color:teal;
-    margin: 10px;
-}
 
 section h2, section p{
     margin-left: 20px;
@@ -159,6 +153,32 @@ section h2, section p{
 .album.radius{
     border-radius: 50%;
 }
+
+/* Cover plylist */
+/* Resently */
+.album{
+    width:calc(20% - 20px);
+    height: 200px;
+    margin: 10px;
+    background-size:contain;
+    background-repeat: no-repeat;
+}
+.album-res-1{
+    background-image: url("../img/metal_lifting.jpg");
+}
+.album-res-2{
+    background-image: url("../img/stranger.jpeg");
+}
+.album-res-3{
+    background-image: url("../img/aquietplace.jpeg");
+}
+.album-res-4{
+    background-image: url("../img/split.jpeg");
+}
+.album-res-5{
+    background-image: url("../img/sinister.jpeg");
+}
+
 
 /* Footer */
 footer{
