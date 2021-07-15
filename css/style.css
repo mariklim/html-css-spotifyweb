@@ -7,13 +7,14 @@
 
 /* Common */
 body{
+    font-family:'Noto Sans', sans-serif;;
     background-color: #141922;
     color: honeydew;
 }
 
 a{
     text-decoration: none;
-    color:yellow;
+    color:#717171;
 }
 ul{
     list-style: none;
@@ -37,7 +38,7 @@ main{
 }
 .navbar-top-fixed{
     height: 90px;
-    background-color: blue;
+    background: rgba(216, 148, 148, 0.2);
     overflow: hidden;
     position: fixed;
     top: 0;
@@ -69,7 +70,7 @@ main{
 /* Sidebar */
 .sidebar-fixed{
     width: 230px;
-    background-color: darkblue;
+    background-color: black;
     overflow: hidden;
     position: fixed;
     top: 0;
@@ -84,7 +85,6 @@ main{
     
 }
 .nav-sidebar-top,.nav-sidebar-bottom,.nav-sidebar-middle{
-border: 1px solid white;
 padding: 20px;
 }
 
@@ -94,7 +94,6 @@ padding: 20px;
 .nav-sidebar-middle{
     height: 80%;
     overflow-y: auto;
-    background-color: chartreuse;
 }
 .nav-sidebar-top li{
     margin: 10px 0;
