@@ -231,7 +231,6 @@ section h2, section p{
 /* Footer */
 footer{
     display: flex;
-    justify-content: space-between;
     height: 90px;
     background-color:#282828;
     align-items: center;
@@ -244,16 +243,17 @@ footer{
 }
 .footer-left{
     display: flex;
-    width: 20%;
+    width: 15%;
 }
 .footer-right{
-    width: 20%;
+    width: 15%;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: flex-end;
 }
 .footer-center{
-width: 80%;
+width: 70%;
 margin: auto;
 display: flex;
 flex-direction: column;
