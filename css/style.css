@@ -21,10 +21,6 @@ ul{
 }
 
 /* Hover */
-.album::after{
-    content: dddydy;
-}
-
 .album:hover{
     filter:grayscale(0.7);
 }
@@ -85,11 +81,12 @@ main{
     display: flex;
 }
 .navbar-top-fixed{
+    width: 100%;
     height: 90px;
     background:rgba(0, 0,0, 0.5);
     width: 100%;
     overflow: hidden;
-    position: sticky;
+    position: fixed;
     top: 0;
     right: 0;
     text-align: right;
@@ -101,6 +98,7 @@ main{
 }
 
 .main-content{
+    margin-top: 100px;
     margin-left: 230px;
     width: calc(100% - 230px);
     overflow-y: auto;
