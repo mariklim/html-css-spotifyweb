@@ -21,6 +21,13 @@ ul{
 }
 
 /* Hover */
+.btn-trasparent:hover{
+    transform: scale(1.2);
+}
+.nav-main-center a:hover{
+    color: white;
+    font-weight: 500;
+}
 .over-play>i{
     font-size: 50px;
 }
