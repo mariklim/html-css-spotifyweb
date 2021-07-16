@@ -37,6 +37,9 @@ ul{
     visibility: visible;
 }
 
+.album.radius{
+    overflow: hidden;
+}
 /* Buttons */
 .btn{
    background-color: rgba(0, 0, 0, 0.9);
@@ -270,27 +273,24 @@ footer{
     margin: 0 10px;
 }
 
-.audio-row{
-    margin-top: 15px;
+.duration-row{
+    display: flex;
+    align-items: center;
     display: flex;
     width: 600px;
-    height: 4px;
+    height: 20px;
 }
 
 .audio-row-listening{
     width: 30%;
-    background-color:#c1c1c1;
+    border:2px solid #c1c1c1;
 }
 .audio-row-complete{
-    width: 70%;
-    background-color:#5a5a5a;
-}
-
-.audio-tamplate{
-    display: flex;
+    width: 100%;
+    border: 2px solid #5a5a5a;
 }
 
 .time{
     font-size: 10px;
-    margin: 8px 20px;
+    margin: 0 10px;
 }
