@@ -28,6 +28,13 @@ ul{
     color: white;
     font-weight: 500;
 }
+.sidebar-column a:hover{
+    color: white;
+    font-weight: 500;
+}
+.square:hover{
+    background-color: white;
+}
 .over-play>i{
     font-size: 50px;
 }
@@ -57,23 +64,29 @@ ul{
    color: white;
 }
 
-.btn-square{
+.square{
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    color: black;
+    background-color:#5a5a5a;
     width: 30px;
     height: 30px;
-    margin: 10px 0px;
 }
 
-.btn-square a{
-    color: black;
-    font-size: 20px;
+.make-play-list{
+    color: #5a5a5a;
+    display: inline-block;
 }
+
 
 .btn-icon{
     background: transparent;
     border:0px;
 }
 .btn-icon i{
-    color: white;
+    color: #5a5a5a;
 }
 .play {
     font-size: 30px;
