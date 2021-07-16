@@ -40,6 +40,7 @@ ul{
 .album.radius{
     overflow: hidden;
 }
+
 /* Buttons */
 .btn-trasparent{
    background-color:transparent;
@@ -113,6 +114,7 @@ main{
 .nav-main-center{
     text-align: center;
     text-transform: uppercase;
+    font-size: 13px;
 }
 .nav-main-center>ul li{
     display: inline-block;
@@ -133,7 +135,7 @@ main{
     height: calc(100% - 90px);
     display: flex;
     flex-direction: column;
-    padding: 20px;  
+    padding: 20 0px;  
 }
 
 .nav-sidebar-middle{
@@ -143,9 +145,15 @@ main{
     margin-top: 10px;
 }
 
-.sidebar-fixed li{
-    margin: 10px 0;
+.nav-sidebar-middle h4,
+.nav-sidebar-middle button{
+    margin-left:15px;
 }
+.nav-sidebar-middle span{
+    color:#717171;
+    font-size: 15px;
+}
+
 .sidebar-fixed a{
     font-size: 15px;
 }
@@ -153,6 +161,19 @@ main{
 a.icon-user i{
     margin-top: 10px;
     font-size: 20px;
+}
+
+/* Green left border */
+.sidebar-fixed li{
+    margin: 10px 0;
+    border-left: 2px solid transparent;
+    padding: 0 15px;
+}
+
+#home{
+    margin: 10px 0;
+    border-left: 2px solid lime;
+    padding: 0 15px; 
 }
 
 /* Playlist */
