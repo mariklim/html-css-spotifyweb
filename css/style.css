@@ -32,7 +32,11 @@ ul{
     color: white;
     font-weight: 500;
 }
-.square:hover{
+/* .square:hover{
+    background-color: white;
+} */
+.nav-sidebar-middle a:hover .square{
+    color: black;
     background-color: white;
 }
 .over-play>i{
