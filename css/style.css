@@ -307,15 +307,24 @@ align-items: center;
 }
 
 .icon{
-    border-radius: 50%;
     width: 30px;
     height: 30px;
-    background-color: gray;
     display: inline-block;
-    text-align: center; 
-    margin-top: 10px;
+    vertical-align: middle;
 }
 .icon img{
-    width: 70%;
-    
+    object-fit: cover;
+}
+
+.icon.profile{
+    text-align: center; 
+    margin-top: 10px;
+    border-radius: 50%;
+    background-color: gray;
+    overflow: hidden;
+    margin-right: 5px;
+}
+
+.name-profile{
+    vertical-align: middle;
 }
