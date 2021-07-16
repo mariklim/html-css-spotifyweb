@@ -133,19 +133,17 @@ main{
     height: calc(100% - 90px);
     display: flex;
     flex-direction: column;
+    padding: 20px;
 
     
 }
-.nav-sidebar-top,.nav-sidebar-bottom,.nav-sidebar-middle{
+/* .nav-sidebar-top,.nav-sidebar-bottom,.nav-sidebar-middle{
 padding: 20px;
-}
+} */
 
-.nav-sidebar-bottom, .nav-sidebar-top{
-    height: 20%;
-}
 .nav-sidebar-middle{
+    flex-grow: 1;
     background-color: black;
-    height: 80%;
     overflow-y: auto;
 }
 
