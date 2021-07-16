@@ -169,6 +169,10 @@ main{
     padding: 5px;
 }
 
+.nav-main-center li:first-child{
+    border-bottom: 1px solid lime;
+}
+
 /* Sidebar */
 .sidebar-fixed{
     width: 230px;
