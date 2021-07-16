@@ -156,10 +156,12 @@ a.icon-user i{
 }
 
 /* Playlist */
-
 .row{
     display: flex;
     padding: 10px;
+}
+section{
+    margin: 20px 0;
 }
 
 section h2, section p{
@@ -180,12 +182,18 @@ section h2, section p{
 /* Resently */
 .card{
     width:calc((100% / 6) - 20px);
+    text-align: center;
 }
 .album{
     height: 200px;
     margin: 10px;
     background-size:cover;
     background-repeat: no-repeat;
+}
+
+.subtitle{
+    color:#5a5a5a;
+    font-size: 13px;
 }
 .album-res-1{
     background-image: url("../img/metal_lifting.jpg");
@@ -200,9 +208,11 @@ section h2, section p{
     background-image: url("../img/split.jpeg");
 }
 .album-res-5{
+    background-image: url("../img/cure.jpeg");
+}
+.album-res-6{
     background-image: url("../img/sinister.jpeg");
 }
-
 /* Special for you */
 .album-spec-1{
     background-image: url("../img/radar.jpeg");
@@ -277,8 +287,10 @@ align-items: center;
 .small-icon-album{
     width: 40px;
     height: 40px;
-    background-color: chartreuse;
+    background-image: url("../img/sinister.jpeg");
+    background-size: cover;
 }
+
 
 .name-of-song{
     font-size: 12px;
