@@ -32,9 +32,6 @@ ul{
     color: white;
     font-weight: 500;
 }
-/* .square:hover{
-    background-color: white;
-} */
 .nav-sidebar-middle a:hover .square{
     color: black;
     background-color: white;
@@ -59,6 +56,33 @@ ul{
     overflow: hidden;
 }
 
+.small-icons i:hover{
+    color: white;
+}
+
+.play:hover{
+    transform: scale(1.2);
+}
+
+.duration-row:hover .audio-row-listening{
+    border-color: yellowgreen;
+}
+
+.audio-row-listening::after{
+    font-family: "Font Awesome 5 Free";
+    font-weight: 400; 
+    content: "\f192";
+    font-size: 20px;
+    position: absolute;
+    top:-10%;
+    left: 25%;
+    display: none;
+}
+
+.duration-row:hover .audio-row-listening::after{
+    display: inline-block;
+
+}
 /* Buttons */
 .btn-trasparent{
    background-color:transparent;
@@ -286,6 +310,9 @@ footer{
     left: 0;
     z-index: 1;
 }
+footer a{
+    color: white;
+}
 .footer-left{
     display: flex;
     width: 15%;
@@ -293,7 +320,6 @@ footer{
 .footer-right{
     width: 15%;
     display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: flex-end;
 }
@@ -312,6 +338,7 @@ align-items: center;
     display: flex;
     width: 50%;
     height: 20px;
+    position: relative;
 }
 
 .audio-row-listening{
@@ -336,7 +363,9 @@ align-items: center;
     background-size: cover;
 }
 
-
+.btn-icon i{
+    color: white;
+}
 .name-of-song{
     font-size: 12px;
 }
@@ -352,6 +381,7 @@ align-items: center;
 }
 .small-icons i{
     padding: 0px 3px;
+    color: #5a5a5a;;
 }
 
 .audio-nav ul{
