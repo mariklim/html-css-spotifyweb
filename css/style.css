@@ -75,7 +75,7 @@ ul{
     content: "\f192";
     font-size: 20px;
     position: absolute;
-    top:-10%;
+    top:-5%;
     left: 25%;
     display: none;
 }
@@ -108,7 +108,6 @@ ul{
     color: #5a5a5a;
     display: inline-block;
 }
-
 
 .btn-icon{
     background: transparent;
@@ -223,6 +222,29 @@ main{
 a.icon-user i{
     margin-top: 10px;
     font-size: 20px;
+}
+.icon{
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.icon img{
+    object-fit: cover;
+}
+
+.icon.profile{
+    text-align: center; 
+    margin-top: 10px;
+    border-radius: 50%;
+    background-color: gray;
+    overflow: hidden;
+    margin: 10px;
+    vertical-align: middle;
+}
+
+.name-profile{
+    vertical-align: middle;
 }
 
 /* Green left border */
@@ -407,25 +429,3 @@ align-items: center;
     margin: 0 10px;
 }
 
-.icon{
-    width: 30px;
-    height: 30px;
-    display: inline-block;
-    vertical-align: middle;
-}
-.icon img{
-    object-fit: cover;
-}
-
-.icon.profile{
-    text-align: center; 
-    margin-top: 10px;
-    border-radius: 50%;
-    background-color: gray;
-    overflow: hidden;
-    margin-right: 5px;
-}
-
-.name-profile{
-    vertical-align: middle;
-}
