@@ -78,4 +78,8 @@
         .sidebar-fixed{
             width: auto;
         }
+        .main-content{
+        width: calc(100% - 62px);
+        margin-left: 62px;
+    }
     }
