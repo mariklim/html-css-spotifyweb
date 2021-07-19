@@ -33,10 +33,15 @@ ul{
     color: white;
     font-weight: 500;
 }
+
+#Crea-Playlist:hover{
+    color: white;
+}
 .nav-sidebar-middle a:hover .square{
     color: black;
     background-color: white;
 }
+
 
 .album-hover{
   visibility: hidden;  
@@ -92,6 +97,11 @@ ul{
 .duration-row:hover .audio-row-listening::after{
     display: inline-block;
 
+}
+
+.name-of-song:hover{
+    color: white;
+    text-decoration: underline;
 }
 /* Buttons */
 .btn-trasparent{
@@ -156,6 +166,7 @@ main{
     right: 0;
     text-align: right;
     line-height: 90px;
+    z-index: 1;
 }
 
 .navbar-top-fixed button{
@@ -204,6 +215,7 @@ main{
 .sidebar-column{
     height: calc(100% - 90px);
     display: flex;
+    justify-content: space-between;
     flex-direction: column;
     padding: 20 0px;  
 }
@@ -213,6 +225,10 @@ main{
     background-color: black;
     overflow-y: auto;
     margin-top: 10px;
+}
+
+.nav-sidebar-middle h4 span{
+    color: white;
 }
 
 .nav-sidebar-middle h4,
@@ -233,8 +249,8 @@ a.icon-user i{
     font-size: 20px;
 }
 .icon{
-    width: 30px;
-    height: 30px;
+    width: 25px;
+    height: 25px;
     display: inline-block;
     vertical-align: middle;
 }
@@ -254,6 +270,7 @@ a.icon-user i{
 
 .name-profile{
     vertical-align: middle;
+    font-size: 15px;
 }
 
 /* Green left border */
@@ -341,11 +358,11 @@ footer a{
     justify-content: flex-end;
 }
 .footer-center{
-width: 70%;
-margin: auto;
-display: flex;
-flex-direction: column;
-align-items: center;
+    width: 70%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 /* Duration-row */
@@ -373,11 +390,8 @@ align-items: center;
 }
 
 /* Nav elements */
-.small-icon-album{
+.small-icon-album img{
     width: 40px;
-    height: 40px;
-    background-image: url("../img/sinister.jpeg");
-    background-size: cover;
 }
 
 .btn-icon i{
@@ -385,6 +399,7 @@ align-items: center;
 }
 .name-of-song{
     font-size: 12px;
+    color: #5a5a5a;;
 }
 
 .small-text-box{
