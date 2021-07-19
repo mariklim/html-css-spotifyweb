@@ -292,7 +292,7 @@ section h2, section p{
 .album{
     height: 200px;
     margin: 10px;
-    background-size:cover;
+    background-size:contain;
     background-repeat: no-repeat;
 }
 
