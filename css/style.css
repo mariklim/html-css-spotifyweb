@@ -37,20 +37,29 @@ ul{
     color: black;
     background-color: white;
 }
-.over-play>i{
+
+.album-hover{
+  visibility: hidden;  
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0,0, 0.5);
+  top: 0;
+  bottom: 5px;
+  left: 0;
+  right: 0;
+}
+.album-hover i{
     font-size: 50px;
 }
-.over-play{
-    visibility: hidden;
-    display: flex;
-    justify-content: center ;
-    align-items: center;
-    height: 100%;
-    width: 100%;
-    background-color: rgba(0, 0,0, 0.3);
-}
-.album:hover .over-play{
+
+.album:hover .album-hover{
     visibility: visible;
+}
+.album.album-res-1.border-radius:hover .album-hover{
+    visibility: visible;
+    border-radius: 50%;
 }
 
 .album.radius{
@@ -278,61 +287,33 @@ section h2, section p{
 }
 
 /* Cover plylist */
-.album-description{
-    margin-left: 20px;
-}
+
 .album-description p{
     margin-left: 0;
 }
-/* Resently */
 .card{
     width:calc((100% / 6) - 20px);
     text-align: center;
+    margin: 10px;
 }
 .album{
-    height: 200px;
-    margin: 10px;
-    background-size:contain;
-    background-repeat: no-repeat;
+    position: relative;
+}
+
+.album img{
+    width: 100%;
 }
 
 .subtitle{
     color:#5a5a5a;
     font-size: 13px;
 }
-.album-res-1{
-    background-image: url("../img/metal_lifting.jpg");
-}
-.album-res-2{
-    background-image: url("../img/stranger.jpeg");
-}
-.album-res-3{
-    background-image: url("../img/aquietplace.jpeg");
-}
-.album-res-4{
-    background-image: url("../img/split.jpeg");
-}
-.album-res-5{
-    background-image: url("../img/cure.jpeg");
-}
-.album-res-6{
-    background-image: url("../img/sinister.jpeg");
-}
-/* Special for you */
-.album-spec-1{
-    background-image: url("../img/radar.jpeg");
-}
-.album-spec-2{
-    background-image: url("../img/mixdaily.jpeg");
+
+.album.album-res-1.border-radius img{
+    border-radius: 50%;
 }
 
-/* Artist */
-.album-art-1{
-    background-image: url("../img/youg.jpeg");
-}
-.album-art-2{
-    background-image: url("../img/einaudi.jpeg");
-}
+
 /* Footer */
 footer{
     display: flex;
