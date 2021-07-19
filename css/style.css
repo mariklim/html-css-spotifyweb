@@ -294,8 +294,12 @@ a.icon-user i{
 section{
     margin: 20px 0;
 }
+.subtitle, .subtitle-2{
+    color:#5a5a5a;
+    font-size: 13px;
+}
 
-section h2, section p{
+section h2, .subtitle-2{
     margin-left: 20px;
 }
 
@@ -305,9 +309,6 @@ section h2, section p{
 
 /* Cover plylist */
 
-.album-description p{
-    margin-left: 0;
-}
 .card{
     width:calc((100% / 6) - 20px);
     text-align: center;
@@ -321,10 +322,6 @@ section h2, section p{
     width: 100%;
 }
 
-.subtitle{
-    color:#5a5a5a;
-    font-size: 13px;
-}
 
 .album.border-radius img{
     border-radius: 50%;
