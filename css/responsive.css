@@ -65,7 +65,7 @@
             display: none;
         }
         #mini-logo{
-            width: 40px;
+            width: 25px;
             display: inline-block;
         }
         .invisible{
@@ -81,5 +81,15 @@
         .main-content{
         width: calc(100% - 62px);
         margin-left: 62px;
+    }
+    .logo-box{
+        height: auto;
+    }
+    .icon{
+        width: 25px;
+        height: 25px;
+    }
+    hr{
+     display: none;
     }
     }
