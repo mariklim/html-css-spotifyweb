@@ -57,7 +57,7 @@ ul{
 .album:hover .album-hover{
     visibility: visible;
 }
-.album.album-res-1.border-radius:hover .album-hover{
+.album.border-radius:hover .album-hover{
     visibility: visible;
     border-radius: 50%;
 }
@@ -309,7 +309,7 @@ section h2, section p{
     font-size: 13px;
 }
 
-.album.album-res-1.border-radius img{
+.album.border-radius img{
     border-radius: 50%;
 }
 
