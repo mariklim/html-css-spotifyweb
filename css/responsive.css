@@ -65,6 +65,7 @@
         display: none;
     }
     #mini-logo{
+        margin-left: 18px;
         width: 25px;
         display: inline-block;
     }
@@ -89,6 +90,10 @@
     .icon{
             width: 25px;
             height: 25px;
+    }
+
+    .icon.profile{
+        margin-left: 12px;
     }
     hr{
     display: none;
