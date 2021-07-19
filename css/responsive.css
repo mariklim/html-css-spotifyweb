@@ -68,4 +68,14 @@
             width: 40px;
             display: inline-block;
         }
+        .invisible{
+            display: none;
+        }
+
+        .sidebar-column{
+            justify-content: space-between;
+        }
+        .sidebar-fixed{
+            width: auto;
+        }
     }
