@@ -136,3 +136,28 @@
     width: 60%;
     }
 }
+
+  /*XXS max-width 575px/437px */
+  @media screen and (max-width: 575px) and (min-width: 438px) {
+    .small-icons{
+        display: none;
+    }
+}
+
+
+ /*max-width 437px */
+ @media screen and (max-width: 437px) {
+    .footer-left{
+        display: none;
+    }
+    .footer-right{
+        display: none;
+    }
+    .footer-center{
+      width: 100%;
+    }
+
+    .card{
+        width: 100%;
+    }
+}
